@@ -16,8 +16,20 @@ int main()
 		printf("Total is %i\n", t);
 		break;
 	case 2:
+		printf("Enter 1st(larger) value:");
+		scanf("%i", &a);
+		printf("Enter 2nd value:");
+		scanf("%i", &b);
+		t = a - b;
+		printf("Total is %i\n", t);
 		break;
 	case 3:
+		printf("Enter 1st value:");
+		scanf("%i", &a);
+		printf("Enter 2nd value:");
+		scanf("%i", &b);
+		t = a * b;
+		printf("Total is %i\n", t);
 		break;
 	case 4:
 		break;
